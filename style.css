@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 100vh;         
+  margin: 0;              
+}
+
+div {
+  color: white;
+  height: 50px;
+  font-size: xxx-large;
+  font-weight: 600;
+}
+
+.midia {
+  display: block;      
+  margin-top: 20px;    
+  color: white;        
+  text-align: center;   
+}
+
+#caixa {
+  text-align: center;      
+}
+
+#res {
+  width: 300px;
+  height:20px;
+  outline: none; 
+  border: 1px solid #ccc; 
+  padding: 5px;
+  font-size: large;
+  }
+
+#butao {
+  border: none;
+  border-radius: 5px;
+  width:70px;
+  height:30px;
+  background-color: white;
+  transition: background-color 0.3s ease; 
+}
+
+#butao:hover{
+  background-color: blueviolet;
+}

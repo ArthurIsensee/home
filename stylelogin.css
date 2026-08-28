@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+}
+
+div {
+  text-align: center;
+  color: aliceblue;
+  background-color: blueviolet;
+  border-radius: 10px;
+  width: 15rem;
+  justify-self: center;
+}
+
+#log {
+  padding-top: 15px;
+}
+
+#tela {
+  background-color: blueviolet;
+  border-radius: 15px;
+  justify-self: center;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(1, 1, 161);
+}
