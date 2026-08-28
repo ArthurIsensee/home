@@ -6,7 +6,7 @@ const senha = "anakin"
     let tentativasenha = document.getElementById("Senha").value
 
     if (tentativauser == user & tentativasenha == senha) {
-      window.location.href = "index.html";
+      window.location.href = "home.html";
     } else {
       window.alert ("usuario ou senha incorretos")
     }
